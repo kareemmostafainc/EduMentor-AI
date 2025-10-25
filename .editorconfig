@@ -1,0 +1,38 @@
+# ==========================================
+# EduMentor-AI .editorconfig
+# Enforces consistent coding style across IDEs and editors
+# ==========================================
+
+# Top-most EditorConfig file
+root = true
+
+# --- General Rules ---
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# --- Python Files ---
+[*.py]
+indent_size = 4
+max_line_length = 88
+
+# --- JavaScript / TypeScript ---
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+quote_type = single
+
+# --- JSON / YAML / Markdown ---
+[*.{json,yml,yaml,md}]
+indent_size = 2
+
+# --- Makefile ---
+[Makefile]
+indent_style = tab
+
+# --- HTML / CSS ---
+[*.{html,css}]
+indent_size = 2
